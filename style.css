@@ -1,0 +1,50 @@
+header {
+    background-color: rgb(132, 158, 158);
+    height: auto;
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(97, 190, 117);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main {
+    background-color: lightpink;
+    height: auto;
+}
+
+footer {
+    background-color: darkmagenta;
+    height: 300px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.topLiNav {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.topLiNav a {
+text-decoration: none;
+color: black;
+}
+
+.topLiNav a:hover {
+    background-color: orchid;
+    color: navy;
+}
+
+.landpage {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.textinfo {
+    padding: 20px;
+}
